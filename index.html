@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simple Stopwatch</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="time">00:00:00:00</div>
+    <div id="time-div-box-spans">
+      <span id="hh">Hours</span>
+      <span id="mm">Minutes</span>
+      <span id="ss">Seconds</span>
+      <span id="ms">Miliseconds</span>
+    </div>
+
+    <div id="control-timer-btns">
+      <button onclick="goTimer()" id="go">Go</button>
+      <button onclick="stopTimer()" id="stop">Stop</button>
+      <button onclick="clearTimer()" id="clear">Clear</button>
+    </div>
+
+    <script async src="./index.js"></script>
+  </body>
+</html>
